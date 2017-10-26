@@ -43,3 +43,12 @@ If you want this in a organized list, and not a table, for example
  adipex
  opana
  ```
+ 
+ You can run these variables 
+ ```mysql
+ SELECT  DISTINCT
+ LTRIM(RTRIM(SUBSTRING(Medications, Number ,CHARINDEX(',', Medications + ',', Number ) - Number))) AS Medication 
+ FROM @Medications 
+ JOIN master..spt_values ON Number <= DATALENGTH(Medications) + 1  AND type='P'
+ AND SUBSTRING(',' + Medications, Number , 1) = ',' 
+ ```
