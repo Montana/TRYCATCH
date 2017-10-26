@@ -12,7 +12,7 @@ You'd get back results of antihistamines, via
    
    Another example would be 
    
-   <pre>benzodiazepines</pre>
+   <pre>benzodiazepine</pre>
    
    Then output would be
    
