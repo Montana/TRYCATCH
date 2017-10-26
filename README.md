@@ -1,7 +1,7 @@
 # TRYCATCH
 List of select medications on the WHO list. Written by Montana Mendy. The list in it's entirety can be viewed here: http://www.who.int/medicines/publications/essentialmedicines/en/. 
 
-I've attached the list of medications, so you can search them via sql. Inspiration for the name TRYCATCH comes from the following: https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/try-catch.
+I've attached the list of medications, so you can search them via sql. Inspiration for the name TRYCATCH comes from the following: https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/try-catch. In this example using Transact-SQL 
 
 Let's get started
 
