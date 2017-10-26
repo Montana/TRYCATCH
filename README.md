@@ -14,6 +14,8 @@ You'd get back results of antihistamines, via
    
    <pre>benzodiazepines</pre>
    
+   Then output would be
+   
   ```mysql  
 alprazolam (Xanax, Xanax XR)
 clobazam (Onfi)
