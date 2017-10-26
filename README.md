@@ -1,5 +1,7 @@
 # TRYCATCH
-List of medications on the WHO list. Written by Montana Mendy. I've attached the list of medications, so you can search them via sql. 
+List of medications on the WHO list. Written by Montana Mendy. I've attached the list of medications, so you can search them via sql. Inspiration for the name TRYCATCH comes from the following: https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/try-catch.
+
+Let's get started
 
    ```mysql
    BEGIN TRY
@@ -52,3 +54,10 @@ If you want this in a organized list, and not a table, for example
  JOIN master..spt_values ON Number <= DATALENGTH(Medications) + 1  AND type='P'
  AND SUBSTRING(',' + Medications, Number , 1) = ',' 
  ```
+ 
+ If you can output it to awk 
+  ```mysql
+ outputcommand | awk 'BEGIN{FS="|"}{print $3}'|awk 'BEGIN{RS=","}{print $0}'
+  ```
+  
+  That might be easier, given your circumstances. 
