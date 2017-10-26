@@ -1,5 +1,12 @@
 # TRYCATCH
-List of medications on the WHO list. Written by Montana Mendy. 
+List of medications on the WHO list. Written by Montana Mendy. I've attached the list of medications, so you can search them via sql. 
+
+   ```mysql
+   BEGIN TRY
+   -- execute each statement
+   INSERT INTO MEDICATIONS(PK) VALUES ('medications')
+   INSERT INTO MEDICATIONS(PK) VALUES ('who')
+   ```
 
 ```mysql
 +----+------------------------------------------------------------------------------+
