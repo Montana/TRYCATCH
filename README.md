@@ -7,6 +7,7 @@ List of medications on the WHO list. Written by Montana Mendy. I've attached the
    INSERT INTO MEDICATIONS(PK) VALUES ('medications')
    INSERT INTO MEDICATIONS(PK) VALUES ('who')
    ```
+   Should print out 
 
 ```mysql
 +----+------------------------------------------------------------------------------+
@@ -24,3 +25,21 @@ List of medications on the WHO list. Written by Montana Mendy. I've attached the
 | 10 | soma, LITHIUM, MULTI-VITAMIN, fentanyl patch, percocet, PROPANOLOL, tegretol |
 +----+------------------------------------------------------------------------------+
 ```
+
+If you want this in a organized list, and not a table, for example 
+
+```mysql
+ NAPROXEN
+ neurontin
+ DOCUSATE
+ HYDROCODONE
+ BACLOFEN
+ advil
+ celexa
+ lortab
+ lyrica
+ ambien
+ xanax
+ adipex
+ opana
+ ```
