@@ -1,5 +1,5 @@
 # TRYCATCH
-List of medications on the WHO list. Written by Montana Mendy. I've attached the list of medications, so you can search them via sql. Inspiration for the name TRYCATCH comes from the following: https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/try-catch.
+List of medications on the WHO list. Written by Montana Mendy. I've attached the list of medications, so you can search them via sql. Inspiration for the name TRYCATCH comes from the following: https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/try-catch. Information from: http://www.who.int/medicines/publications/essentialmedicines/en/
 
 Let's get started
 
