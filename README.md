@@ -17,13 +17,13 @@ You'd get back results of antihistamines, via
    Then output would be
    
   ```mysql  
-alprazolam (Xanax, Xanax XR)
-clobazam (Onfi)
-clonazepam (Klonopin)
-clorazepate (Tranxene)
-chlordiazepoxide (Librium)
-diazepam (Valium, Diastat Acudial, Diastat)
-lorazepam (Ativan)
+   alprazolam (Xanax, Xanax XR)
+   clobazam (Onfi)
+   clonazepam (Klonopin)
+   clorazepate (Tranxene)
+   chlordiazepoxide (Librium)
+   diazepam (Valium, Diastat Acudial, Diastat)
+   lorazepam (Ativan)
 ```
 
 I've attached the list of medications, so you can search them via sql. Inspiration for the name TRYCATCH comes from the following: https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/try-catch. In this example I'm using Transact-SQL.
