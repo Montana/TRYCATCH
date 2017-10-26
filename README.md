@@ -4,6 +4,8 @@
 
 This is public documentiation, for a private project that myself and somebody else is working on. The reason I made this documentation public, is as usual for when I make things public, is our solution process. I want to share with people how we solve problems, and give them insight to the project a little bit. 
 
+## Usage
+
 List of select medications on the WHO list. Written by Montana Mendy. The list in it's entirety can be viewed here: http://www.who.int/medicines/publications/essentialmedicines/en/. By no means, this is every medication. This is just the beginning of an webapp I'm building in a private repo, where say you search say the following 
 
 <pre>antihistamine</pre> 
