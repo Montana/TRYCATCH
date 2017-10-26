@@ -1,5 +1,14 @@
 # TRYCATCH
-List of select medications on the WHO list. Written by Montana Mendy. The list in it's entirety can be viewed here: http://www.who.int/medicines/publications/essentialmedicines/en/. 
+List of select medications on the WHO list. Written by Montana Mendy. The list in it's entirety can be viewed here: http://www.who.int/medicines/publications/essentialmedicines/en/. By no means, this is every medication. This is just the beginning of an webapp I'm building in a private repo, where say you search say the following 
+
+<pre>antihistamine</pre> 
+
+You'd get back results of antihistamines, via 
+
+   ```mysql
+      diphenhydramine
+      hydroxyzine
+   ```
 
 I've attached the list of medications, so you can search them via sql. Inspiration for the name TRYCATCH comes from the following: https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/try-catch. In this example I'm using Transact-SQL.
 
